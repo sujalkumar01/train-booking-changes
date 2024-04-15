@@ -1,0 +1,100 @@
+<?php
+include config.php
+
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="locations.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+  
+  <div class="header">
+    <div class="header-div">
+      <div class="header-logo">
+          <img class="logo" src="/train booking/images/logo.png">
+      </div>
+      
+      <div class="header-options">
+          <a class="home" href="index.html">home</a>
+          <strong><a class="login"href="login.html">login</a></strong>
+          <a class="register"href="register.html">register</a>
+          <a class="contact-us"href="contactus.html">contact us</a>
+          <a class="trains"href="#">trains</a>
+          <strong><time id="time">00:00:00</time> </strong>
+          <strong><time id ="date"datetime="2023-04-1"></time></strong>
+
+      </div>
+      
+      <div class="profile">
+          <button id="profile-button">
+              <img class="profile-image"src="/train booking/images/user.png">
+          </button>
+      </div>     
+    </div>   
+  </div>  
+
+
+  <div class="login-box-container">
+    <div class="login-container">
+        <div class="login-box">
+            <img class="train-png" src="/train booking/images/trainpng.png">
+            <img class="train-png2" src="/train booking/images/trainpng.png">
+            <p class="login-text">LOGIN</p>
+            
+            <form class="email-pass"  action="#">
+                <input type="text" id="email" name="email" placeholder="email id">
+                <input type="password" id="password" name="password" placeholder="password">
+
+            
+            <button type="submit" id="login-button">
+                LOGIN
+            </button>
+          </form>
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="footer-container">
+    <div class=footer-links>
+      <a id="about-us" href="#">About us</a>
+      <a id="features" href="#">Features</a>
+      <a id="sdgs" href="#">SDG's</a>
+      <a id="contact-us" href="#">Contact us</a>
+      
+    </div>
+    <div class="copyright-credit">
+      <p>&copy;2024 sujal,sanskar,hardik /mentor: bharthi maam</p>
+
+    </div>
+  
+
+  </div>
+</body>
+</html>      

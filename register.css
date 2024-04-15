@@ -1,0 +1,173 @@
+.register-box-container
+{
+    background-color:  rgb(245, 244, 244);
+    width: 100%;
+    position: relative;
+    height: 800px;
+    top: 100px;
+}
+
+.register-container
+{
+    position: relative;
+    background-color: white;
+    width:950px ;
+    
+
+
+    background-repeat: no-repeat;
+
+    border-radius: 50px;
+    height: 600px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+.register-box
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   box-sizing: border-box;
+   overflow: hidden;
+   width: 100%;
+   
+
+   
+   
+   
+   
+}
+.email-pass
+{
+    position: relative;
+    width: 40%;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+.message
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:hwb(36 10% 0%);
+    color: black;
+
+}
+
+#name
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+    
+    
+    
+}
+#email
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+    
+    
+    
+}
+#phone-number
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+#password
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+    margin-bottom: 30px;
+}
+#confirm-password
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+    margin-top: 5px;
+}
+.register-text
+{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 0px;
+    border-bottom: 2px solid;
+    top: 0;
+
+}
+#register-button
+{
+    border: none;
+    background-color:hwb(36 10% 0%);
+    padding: 9px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin:30px auto ;
+    display: block;
+    
+    
+
+}
+.train-png2
+{
+    position:absolute;
+    width: 51%;
+    margin-top: 90px;
+    right: 73%;
+    height: auto;
+    opacity: 100%;
+    
+    
+}
+.train-png
+{
+    position:absolute;
+    width: 51%;
+    margin-top: 90px;
+    left: 73%;
+    height: auto;
+    opacity: 100%;
+
+    transform: scaleX(-1);
+    
+    
+}

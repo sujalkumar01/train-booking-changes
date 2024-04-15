@@ -1,0 +1,49 @@
+.namedisplay,.emaildisplay,.phonedisplay
+{
+    position: relative;
+    border: none;
+    background-color:hwb(36 10% 0%);
+    padding: 9px;
+    width: 40%;
+    padding-right: 40px;
+    padding-left: 20px;
+
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+    display: block;
+}
+.logout-box
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+ 
+    
+}
+#logout-button
+{
+    position: relative;
+    border: none;
+    background-color:hwb(0 10% 0%);
+    padding: 9px;
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin:30px auto ;
+    display: block;
+    
+    
+
+}

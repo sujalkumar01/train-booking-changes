@@ -1,0 +1,49 @@
+
+body
+{   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family:roboto;
+    min-height: 100vh;
+    
+
+    
+    
+}
+
+.bg
+{
+    background-image:url('images/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+    position: relative;
+    background-position: -100px 100%;
+    
+    transform-origin: left;
+    transform: scale(1.2);
+
+    
+    
+    
+
+
+    
+    
+}
+.background-container
+{
+    
+    position: relative;
+    
+    height: 700px;
+    width: 100%;
+    top: 100px;
+    overflow: hidden;
+    
+    
+
+    
+}

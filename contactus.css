@@ -1,0 +1,126 @@
+.login-box-container
+{
+    background-color:  rgb(245, 244, 244);
+    width: 100%;
+    position: relative;
+    height: 800px;
+    top: 100px;
+}
+
+.login-container
+{
+    position: relative;
+    background-color: white;
+    width:950px ;
+    
+
+
+    background-repeat: no-repeat;
+
+    border-radius: 50px;
+    height: 600px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+.login-box
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   box-sizing: border-box;
+   overflow: hidden;
+   width: 100%;
+   
+
+   
+   
+   
+   
+}
+.email-pass
+{
+    position: relative;
+    width: 60%;
+    box-sizing: border-box;
+    
+}
+#feedback
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.contactus-text
+{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: -100px;
+    border-bottom: 2px solid;
+    top: -5px;
+
+}
+#submit-button
+{
+    border: none;
+    background-color:hwb(36 10% 0%);
+    padding: 9px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin:10px auto ;
+    display: block;
+    
+
+}
+.mountain-png
+{
+    position:absolute;
+    width: 100%;
+    margin-top: 90px;
+    
+    height: auto;
+    top: 35%;
+    
+
+    
+    
+    
+}
+.contact-info
+{
+    width: 60%;
+    position: relative;
+    top: -10px;
+
+}
+.details
+{
+    font-size: 18px;
+    font-weight:500;
+    margin: 0;
+    
+}
+.number
+{
+    color: blue;
+}

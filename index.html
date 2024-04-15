@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>train booking</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="locations.css">
+</head>
+<body>
+  
+  <div class="header">
+    <div class="header-div">
+      <div class="header-logo">
+          <img class="logo" src="/train booking/images/logo.png" >
+      </div>
+      
+      <div class="header-options">
+        <a class="login"href="login.php">login</a>
+        <a class="register"href="register.php">register</a>
+        <a class="contact-us"href="contactus.html">contact us</a>
+          <a class="trains"href="#">trains</a>
+          <strong><time id="time">00:00:00</time> </strong>
+          
+
+      </div>
+      
+      <div class="profile">
+          <button type="button" id="profile-button" onclick="window.location.href='profile.php'">
+              <img class="profile-image"src="/train booking/images/user.png">
+          </button>
+      </div>     
+    </div>   
+  </div>  
+        
+    
+
+
+    
+
+
+    <div class="background-container">
+      <div class="bg">
+
+      </div>
+
+      
+      
+      <div class="form-box">
+        
+          <div class="pnr-box">
+            <a href="/train booking/pnr-status.html" id="pnr-button" >
+              CHECK PNR STATUS HERE
+            </a>
+          </div>
+          
+
+          <div class="ticket">
+            <p class="book-ticket">BOOK TICKET</p>
+          </div>
+
+        
+        
+      </div>
+    </div>
+
+
+     <div class="location-container">
+      <div class="heading-container">
+      <p class="heading">SUSTAINABLE HOLIDAYS</p>
+      </div>
+
+
+      <div class="locations">
+        <div class="indore-box location-box"> 
+          <img id="indore" src="/train booking/images/locations/Indore.jpg">
+          <p class="indore-heading">
+            INDORE
+          </p>
+          <P class="indore-text">
+            Indore's sustainable ethos blends history with eco-innovation, boasting efficient waste management and green architecture. Its verdant landscapes and commitment to renewable energy showcase a harmonious balance of heritage and environmental consciousness, setting a shining example for modern cities.
+          </P>
+        </div>
+        <div class="mysur-box location-box">
+          <img id="mysur" src="/train booking/images/locations/mysuru.jpg">
+          <p class="mysur-heading">
+            MYSUR
+          </p>
+          <p class="mysur-text">
+            Mysuru, a green gem, blends regal heritage with modern sustainability, boasting lush gardens, tree-lined avenues, and a commitment to eco-friendly practices. Its verdant landscapes and eco-initiatives, like waste management programs, reflect a harmonious blend of tradition and environmental consciousness.
+          </p>
+        </div>
+        <div class="diu-box location-box">
+          <img id="diu" src="/train booking/images/locations/diu.jpeg">
+          <p class="diu-heading">
+            DIU
+          </p>
+          <p class="diu-text">
+            Diu's sustainable charm lies in its coastal serenity and eco-conscious initiatives, with solar power illuminating its streets and vibrant green spaces adorning its shores. Its fusion of Portuguese heritage and renewable energy epitomizes a modern coastal oasis committed to environmental stewardship.
+          </p>
+        </div>
+      </div>
+    </div>
+
+     </div>
+     <div class="bottom-booking">
+      <a class="click-here" href="#">CLICK TO BOOK YOUR TICKET</a>
+     </div>
+
+
+    <div class="footer-container">
+      <div class=footer-links>
+        <a id="about-us" href="#">About us</a>
+        <a id="features" href="#">Features</a>
+        <a id="sdgs" href="#">SDG's</a>
+        <a id="contact-us" href="#">Contact us</a>
+        
+      </div>
+      <div class="copyright-credit">
+        <p>&copy;2024 sujal,sanskar,hardik /mentor: bharthi maam</p>
+
+      </div>
+    
+
+    </div>
+
+  
+    <script src="intersection.js" ></script>
+    <script src="time_update.js"></script>
+</body>
+</html>

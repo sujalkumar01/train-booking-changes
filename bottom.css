@@ -1,0 +1,45 @@
+.footer-container
+{
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+    
+    
+    
+    
+}
+.footer-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+    padding:30px;
+    padding-left: 80px;
+    padding-right:80px;
+    position: relative;
+    
+    box-shadow: 0px -5px 10px rgba(0, 0,0 ,0.15);
+    
+    
+}
+.copyright-credit
+{
+    background-color: rgb(224, 224, 224);
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-weight: bold;
+    
+}
+#about-us,#contact-us,#features,#sdgs
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: hwb(36 10% 0%);
+}

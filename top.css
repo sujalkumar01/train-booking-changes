@@ -1,0 +1,83 @@
+.header
+{
+    
+    z-index: 99;
+    top: 0;
+    min-width: 100%;
+    position:fixed;  /* this makes the postion of header fixed */
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+    
+}
+.header-div
+{
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    height: 100px;
+
+}
+.header-logo
+{
+    width:100px;
+    margin-left: 60px;
+}
+.header-options
+{
+    margin-left: 10px;
+    flex: 1;
+    min-width: fit-content;
+    max-width: 500px;
+    line-height:30px;
+}
+.profile
+{
+    margin-right:50px ;
+    
+}
+#profile-button
+{
+    border:none;
+    background-color: rgb(235, 235, 235);
+    
+}
+.profile-image
+{
+    border: none;
+    width: 50px;
+}
+.logo
+{
+    width: 60px;
+    
+}
+
+/* .login
+{
+    background-color: hwb(36 10% 0%);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+} */
+.home,.register,.contact-us,.trains,#time,#date,.login
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}

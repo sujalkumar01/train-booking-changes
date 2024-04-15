@@ -1,0 +1,183 @@
+.location-container
+{
+    background-color: white;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    top: 100px;
+    height: 900px;
+    
+    
+    
+    
+}
+
+.locations
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    justify-items: center;
+    height: 300px;
+    position: relative;
+
+    
+    
+    
+}
+#indore
+{
+    width: 345px;
+    height: 250px;
+    
+}
+#mysur
+{
+    width: 345px;
+    height: 250px;
+}
+#diu
+{
+    width: 345px;
+    height: 250px;
+}
+.indore-box
+{
+    height: 600px;
+    background-color: hwb(36 10% 0%);
+    position: relative;
+    text-align: center;
+    width: 345px;
+    overflow: hidden;
+    opacity: 0;
+}
+.mysur-box
+{
+    height: 600px;
+    background-color: hwb(36 10% 0%);
+    position: relative;
+    text-align: center;
+    width: 345px;
+    overflow: hidden;
+    opacity: 0;
+
+}
+.diu-box
+{
+    height: 600px;
+    background-color: hwb(36 10% 0%);
+    position: relative;
+    text-align: center;
+    width: 345px;
+    overflow: hidden;
+    opacity: 0;
+}
+.heading-container
+{
+    text-align: center;
+    padding: 50px;
+}
+.heading-container::before
+{
+    content: '';
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin:0 auto ;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.25);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(226, 226, 226);
+
+    
+    
+}
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: rgb(39, 34, 99);
+}
+.mysur-heading,.indore-heading,.diu-heading
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.mysur-text,.indore-text,.diu-text
+{
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+
+.bottom-booking
+
+{   
+    
+    
+    position: relative;
+    top: 100px;
+
+
+    
+    text-align: center;
+    
+    width: 100%;
+    height: 150px;
+    
+    
+    
+
+
+    
+    
+}
+.click-here
+{   
+    position: relative;
+    font-weight: bold;
+    color: rgb(39, 34, 99);
+    text-decoration: none;
+    font-size: 30px;
+    width: 30%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+    top: 30px;
+    
+    
+    
+    
+    
+}
+
+.location-animation .indore-box {
+    animation: indoreBox 0.5s ease;
+    opacity: 1
+}
+.location-animation .mysur-box {
+    animation: indoreBox 1s ease;
+    opacity: 1
+}
+.location-animation .diu-box {
+    animation: indoreBox 1.5s ease;
+    opacity: 1
+}
+
+@keyframes indoreBox {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
